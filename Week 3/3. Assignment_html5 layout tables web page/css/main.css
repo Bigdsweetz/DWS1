@@ -12,7 +12,7 @@ http://www.iconarchive.com/show/one-piece-character-icons-by-crountch/Affro-Luff
 body {
 	margin: 0 auto;
 	width: 98%;
-	min-width 600px;
+	min-width: 600px;
 	background-color:skyblue;
 	background-image: url("../images/simple-checker.gif");
 	border: .2em solid #fff;
@@ -156,7 +156,7 @@ h2
 	background-size: 35px auto;
 	height: 40px;
 	width:100%;
-	padding: 5px auto;
+	padding: 5px;
 	margin: 5px auto;
 	/*padding: 5px;
 	text-align: center; */
