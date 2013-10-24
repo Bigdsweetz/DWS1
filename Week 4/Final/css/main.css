@@ -20,7 +20,7 @@ body {
 	box-shadow: 10px 10px 5px #888888;
 }
 a:link {
-	color:darkorange;
+	color:blue;
 }
 a:visited {
 	color:green;
@@ -65,8 +65,8 @@ tr:hover {
         }
 
 ol {
-	color: hsla(226, 50%, 23%, 1.0);
-	background-color: hsla(63, 78%, 71%, 1.0);
+    color: hsla(209, 57%, 43%, 1.0);
+    background-color: hsla(26, 100%, 40%, 1.0);
 	width: 70%;
 	list-style-type: none;
 	text-align: center;
