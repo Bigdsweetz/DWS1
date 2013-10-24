@@ -54,35 +54,14 @@ td {
 	text-transform: uppercase;
 }        
 
-td.zoro {
-	background-color: green;	
+td.pop {
+	background-color: #2F6FAB;
 }
-td.nami {
+td.pop2 {
 	background-color: orange;
 }
-td.usopp {
-	background-color: yellow;
-}
-td.sanji {
-	background-color: blue;
-}
-td.tony {
-	background-color: pink;
-}
-td.robin {
-	background-color: purple;
-}
-td.franky {
-	background-color: #26f7fd;
-}
-td.brook {
-	background-color: white;
-}
-td.sunny {
-	background-color: yellow;
-}
 tr:hover {
-        background-color: #BF94E4;
+        background-color: orange;
         }
 
 ol {
@@ -127,7 +106,7 @@ p
 	text-indent:.5%;
 	font: normal normal 400 11pt/1.25 'Courier New', sans-serif;
 	color: rgba(0, 0, 0, 1.0);
-	background-color: hsla(63, 78%, 71%, 1.0);
+    background: linear-gradient(135deg, #cc5800 0%,#2989d8 50%,#207cca 51%,#2f6fab 100%);
 	/*width: 720px; */
 	text-align: left;
 	margin: .5% auto;
@@ -137,7 +116,7 @@ h1
 	text-shadow: 6px 2px #000000;
 	font-family:'Lucida Casual', 'Comic Sans MS';
 	/*letter-spacing:2px; */
-	color:#8B0000;
+	color:#CC5800;
 	background-color:#2F6FAB;
 	background-image: url("../images/pattern_044.gif");
 	margin: 5px auto;
@@ -149,9 +128,9 @@ h2
 {
 	text-align: center;
 	text-transform:capitalize;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px #ffffff;
 	font: normal normal 900 20pt/1 'Times New Roman', sans-serif;
-	color: hsl(0, 100%, 27%);
+	color: hsl(26, 100%, 40%);
 	display:inline-block; 
 	background: hsl(209, 57%, 43%) url(../images/New-York-Flag-icon.png) no-repeat left;
 	background-size: 35px auto;
@@ -185,7 +164,7 @@ aside {
 	clear: both;
 	width: 65%;
 	text-transform:lowercase;
-	color: rgb(139, 0, 0);
+    color: rgb(204, 88, 0);
 	background-color:rgb(47, 111, 171);
 	list-style-type: square;
 	border: 1px solid #000;
@@ -203,12 +182,12 @@ aside {
         }
 input {
         width: 200px;
-        border: 1px solid #BF94E4;
+        border: 1px solid #ffffff;
         padding: 2px;
         }
 input:focus, input:hover {
         border: 1px solid #39F;
-        background-color:#BF94E4;
+        background-color: #CC5800;
         }
 #submit {
         width: 205px;
@@ -223,20 +202,20 @@ input:focus, input:hover {
 
 fieldset {
         width: 280px;
-        margin: 20 auto;
+        margin: 20px auto;
         border: 1px solid #000;
         }
 textarea {
-        background-color: #BF94E4;
+        background-color: #CC5800;
         width: 280px;
         height: 180px;
-        margin: 20 auto;
+        margin: 20px auto;
         border: 1px solid #abc;
-        font: font: normal normal 10px/150% Times New Roman, sans-serif;
+        font: normal normal 10px/150% Times New Roman, sans-serif;
         }        
 legend {
         font-style: italic;
-        color: #F9F;
+        color: #CC5800;
         }
 #title {
         float: left;
@@ -245,7 +224,10 @@ legend {
         }	
  figure {
         float: left;
-        width: 350px;
+        width: 190px;   /*This caused me a bit of problem. I didn't realize this whole time that my monitor was skewing
+        my view. The reason I say this is because I'm using a 27 inch monitor to do this so it looks right on my computer.
+        but when I resize it to a "normal" sized monitor I realized that it looked like crap. I just figured that this would auto resize
+        what I forgot was that I was the one setting the auto resize way to high. */
         height: 200px;
         padding: 25px;
         margin: 40px auto;
